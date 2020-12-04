@@ -1,0 +1,6 @@
+<!--miniprogram/pages/index/index.wxml-->
+<lin-button type="success" size="long" bindtap="handleClickUpload">上传文件</lin-button>
+<lin-button type="success" size="long" bindtap="handleClickParse">解析xlxs</lin-button>
+<navigator url="/pages/list/list">
+    <lin-button type="success" size="long">查看数据</lin-button>
+</navigator>

@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "lin-card": "../../miniprogram_npm/lin-ui/card"
+  },
+  "enablePullDownRefresh": true
+}

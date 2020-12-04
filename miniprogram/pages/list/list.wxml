@@ -1,0 +1,7 @@
+<!--miniprogram/pages/list/list.wxml-->
+<lin-card type="primary" l-class="card" image="{{item.image}}" title="杂志id：{{item.bookid}}" wx:for="{{list}}" wx:key="index">
+    <view class="content">杂志名称：{{item.bookname}}</view>
+    <view class="content">库存：{{item.inventory}}</view>
+    <lin-button l-class="editor-btn" plain size="mini" height="46" shape="semicircle" bindlintap="hanldeClickEditor"
+        data-index="{{index}}">编辑</lin-button>
+</lin-card>
